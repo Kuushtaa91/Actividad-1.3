@@ -60,3 +60,7 @@
 
 ### Esto es lo que se ve una vez dentro de PHPMyadmin:
 ![Img](../img/23.PNG)
+
+### Contenido de los ficheros index.php e info.php
+![Img](../img/23.2.PNG)
+![Img](../img/23.3.PNG)
