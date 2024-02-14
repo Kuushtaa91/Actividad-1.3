@@ -1,1 +1,1 @@
-#
+# Actividad 1.3.2: Creación de un entorno de desarrollo LAMP con una pequeña aplicación WEB.
