@@ -90,13 +90,13 @@ echo "-----------------------------------"
 echo "Verificar si la instalación de WordPress fue exitosa"
 echo "-----------------------------------"
 
-if [ $? -eq 0 ]; then
-    echo "-----------------------------------"
-    echo "¡La instalación de WordPress ha finalizado con éxito! Ahora accede a tu navegador web e ingresa la dirección IP del servidor para completar la configuración."
-    echo "-----------------------------------"
-else
-    echo "-----------------------------------"
+if [ $? -ne 0 ]; then
     echo "Ha ocurrido un error durante la instalación de WordPress."
-    echo "-----------------------------------"
     exit 1
 fi
+
+clear
+
+echo "-----------------------------------"
+echo "La instalación de WordPress ha finalizado con éxito!!!"
+echo "-----------------------------------"
